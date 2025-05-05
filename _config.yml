@@ -1,0 +1,16 @@
+# Site settings
+title: Kajetan Niewczas
+email: kajetan.niewczas@gmail.com
+description: >-
+  Testing my future blog website.
+baseurl: ""
+url: ""
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing
