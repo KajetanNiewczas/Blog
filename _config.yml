@@ -3,13 +3,14 @@ title: Kajetan Niewczas
 email: kajetan.niewczas@gmail.com
 description: >-
   Testing my future blog website.
+domain: kajetanniewczas.github.io
 baseurl: ""
-url: ""
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://kajetanniewczas.github.io"
+github_username: KajetanNiewczas
 
 # Build settings
-theme: minima
+# theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.27.1"
 plugins:
   - jekyll-feed
 
