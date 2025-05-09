@@ -16,6 +16,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.27.1"
 plugins:
   - jekyll-feed
   - jekyll-archives
+  - jekyll-include-cache
 
 # Aesthetics settings
 minimal_mistakes_skin: "dirt"
