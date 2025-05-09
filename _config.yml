@@ -6,7 +6,7 @@ email: kajetan.niewczas@gmail.com
 description: >-
   Some scribbles about topics that catch my interest.
 domain: kajetanniewczas.github.io
-baseurl: "/blog"
+baseurl: ""
 url: "https://kajetanniewczas.github.io"
 github_username: KajetanNiewczas
 locale: "en"
