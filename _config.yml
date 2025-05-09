@@ -1,17 +1,71 @@
 # Site settings
-title: Kajetan Niewczas
+title: "Kajetan Niewczas"
+title_separator: "·"
+name: "Kajetan Niewczas"
 email: kajetan.niewczas@gmail.com
 description: >-
-  Testing my future blog website.
+  Some scribbles about topics that catch my interest.
 domain: kajetanniewczas.github.io
-baseurl: ""
+baseurl: "/blog"
 url: "https://kajetanniewczas.github.io"
 github_username: KajetanNiewczas
+locale: "en"
 
 # Build settings
-# theme: minima
 remote_theme: "mmistakes/minimal-mistakes@4.27.1"
 plugins:
   - jekyll-feed
+  # - jekyll-archives
+
+# Aesthetics settings
+minimal_mistakes_skin: "dirt"
+
+# Author
+author:
+  name     : "Kajetan Niewczas"
+  avatar   : "/assets/images/me.jpg"
+  bio      : "Data Scientist · ML Engineer<br>PhD in Theoretical Physics"
+  location : "Paris, France"
+
+footer:
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:kajetan.niewczas@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/KajetanNiewczas"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/kajetan-niewczas"
+
+# Enable archives
+# tag_archive:
+#   type: liquid
+#   path: /tags/
+
+# Posts layout
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      related: false
+      share: false
+      comments: false
+
+# Front layout
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
 # Exclude from processing
