@@ -1,6 +1,7 @@
 # Site settings
 title: "Kajetan Niewczas"
 title_separator: "·"
+subtitle: "my scribbles"
 name: "Kajetan Niewczas"
 email: kajetan.niewczas@gmail.com
 description: >-
@@ -45,20 +46,6 @@ tag_archive:
   type: liquid
   path: /tags/
 
-# Posts layout
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      related: false
-      share: false
-      comments: false
-
 # Front layout
 defaults:
   # _pages
@@ -66,7 +53,18 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: single
+      layout: archive-single
       author_profile: true
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      related: true
+      share: false
+      comments: false
+
 
 # Exclude from processing
